@@ -15,7 +15,17 @@ $ yarn create react-app my-app --template typescript
 ```
 $ yarn -v
 
-> prints yarn version
+> 1.22.18 (ie version 1)
 
 $ npx yarn-deduplicate --packages @types/react
+
+$ yarn add react-redux @reduxjs/toolkit @types/react-redux
 ```
+
+This would bee easier, install REact / TS and Redux from template:
+
+```
+$ npx create-react-app my-app --template redux-typescript
+```
+
+SEE: https://react-redux.js.org/tutorials/typescript-quick-start
